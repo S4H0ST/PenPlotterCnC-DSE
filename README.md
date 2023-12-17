@@ -4,24 +4,7 @@ Proyecto que tiene como objetivo la creación de un pen plotter Cnc utilizando 3
 
 La formación de estos caracteres estan representados con un metodo matricial de coordenadas de 3x3:
 
-$
-\left(
-\begin{array}{lll}
-p1 & p2& p3\\
-p4 & p5& p6\\            
-p7 & p8 & p9
-\end{array}
-\right)
-$ --- Ejemplo letra **T**----> 
-$
-\left(
-\begin{array}{lll}
-x & x& x\\
-. & x& .\\            
-. & x &.
-\end{array}
-\right)
-$
+![bresenham](./Media/Matriz.png)
 
 Donde para hacer las diagonales se ha utilizado la libreria multistepper, pero se ha inspirado en el algoritmo de Bresenham:
 
