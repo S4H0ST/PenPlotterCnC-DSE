@@ -10,6 +10,6 @@ Donde para hacer las diagonales se ha utilizado la libreria multistepper, pero s
 
 Para poder entender el algoritmo de bresenham es importante también tener varios conceptos previos como son el de la línea, tanto en trazado de una línea como el poder encontrar la línea a partir de dos puntos.
 
-![bresenham](./media/Bresenham.gif)
+![bresenham](./Media/Bresenham.gif)
 
 También usa un mecanismo para iniciar y finalizar a una coordenada conocida, utilizando lo que se denomina ***Homing***.
